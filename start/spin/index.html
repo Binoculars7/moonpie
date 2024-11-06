@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin the Wheel App</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="main">
+            <h1 style="margin-top:-1em;"><small><small><i class='fa fa-pie-chart' style='color:#6665ee; text-shadow:0 0 2px grey;'></i> Spin to Earn</small></small></h1>
+            <p style="text-align: center; margin-bottom: 0.6em;"></p>
+            <div class="container">
+                <canvas id="wheel"></canvas>
+                <button id="spin-btn">SPIN</button>
+                <img src="https://cdn-icons-png.flaticon.com/128/9590/9590006.png" alt="spinner-arrow" />
+            </div>
+            <div id="final-value">
+                <p>Click the SPIN to Start!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Chart JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <!-- Chart JS Plugin for displaying text over chart -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
