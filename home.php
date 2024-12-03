@@ -25,7 +25,7 @@ if($email != false && $password != false){
 
 
 <?php 
-
+//
 echo "<script>window.location = 'home/';</script>";
 
 ?>
