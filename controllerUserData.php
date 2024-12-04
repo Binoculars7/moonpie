@@ -49,7 +49,7 @@ if($data_check){
 $mail = new PHPMailer(true);
 
 try {
-//Server settings
+//Server settingss
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
 $mail->SMTPAuth = true;
