@@ -131,6 +131,7 @@ $errors['db-error'] = "Failed while inserting data into database!";
                 if($status == 'verified'){
                   $_SESSION['email'] = $email;
                   $_SESSION['password'] = $password;
+                  //$_SESSION['cpassword'] = $cpassword;
                     header('location: home/pricing.php');
                 }else{
                     $info = "It's look like you haven't still verify your email - $email";
